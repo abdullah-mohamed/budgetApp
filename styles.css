@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+img {
+    height: 40vh;
+    z-index: 0;
+}
+
+.img-cover {
+    /* DIDN'T WORK */
+    background-color: rgba(0,0,0,0.2);
+    height: 40vh;;
+    z-index: 1;
+}
+
+/* MAIN PANEL STYLES */
+.white-color{
+    color: white;
+}
+
+.main-panel{
+    margin: 0px auto;
+    width: 30%;
+    font-size: 22px;
+    position: absolute;
+    top: 5%;
+    left: 35%;
+    text-align: center;
+    z-index: 99;
+}
+
+.date {
+    margin-bottom: 10px;
+}
+
+.budget {
+    font-size: 40px;
+}
+
+.total-income {
+    background-color: rgb(75,180,75);
+    margin-top: 25px;
+}
+
+.total-expenses {
+    background-color: rgb(200,50,5);
+    margin-top: 10px;
+}
+
+.total-income, .total-expenses{
+    padding: 15px;
+    font-size: 15px;
+}
+
+.align-left {
+    text-align: left;
+    display: inline-block;
+    width: 50%;
+}
+
+.black-color {
+    color: black;
+}
+
+.align-right {
+    text-align: right;
+    width:48%;
+    display: inline-block;
+}
+
+.income-expenses-container {
+    width: 90%;
+    display: inline-block;
+}
+
+.expenses-percentage {
+    font-size: 12px;
+    background-color: rgb(230,50,5);
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 4px;
+    margin-left: 1px;
+}
+
+/* INPUT PANEL STYLES*/
+.input {
+    border: 1px solid rgb(190,190,190);
+    border-radius: 4px;
+    height: 35px;
+    padding-left: 5px;
+}
+
+.input-panel {
+    width: 100%;
+    height: 60px;
+    background-color: rgb(230,230,230);
+}
+
+.input-panel-container {
+    margin: 0px auto;
+    width: 45%;
+    font-size: 22px;
+    padding: 10px;
+}
+
+.wide-input {
+    width: 350px;
+}
+
+.small-input {
+    width: 75px;
+    margin-left: 10px;
+}
+
+.extra-small-input {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.input-panel-button {
+    margin-left: 15px;
+    font-size: 26px;
+    position: relative;
+    top: 5px;
+}
+
+.red-color {
+    color:red;
+}
+
+.green-color {
+    color: rgb(75,180,75);
+}
+
+/* DATA PANEL STYLES */
+.data-panel {
+    margin: 40px auto;
+    width: 60%;
+    font-size: 20px;
+}
+
+.income-list, .expenses-list {
+    float:left;
+    width: 45%;
+
+}
+
+.expenses-list {
+     margin-left: 10%;
+}
+
+li {
+    list-style: none;
+    border-bottom: 1px solid rgb(230,230,230);
+    padding-bottom: 10px;
+}
+
+.padding {
+    padding: 10px;
+    padding-left: 15px;
+}
+
+.right-amount {
+    position: relative;
+    right: -50%;
+}
+
+.right-percentage {
+    background-color: rgba(250,50,50,0.2);
+    font-size: 13px;
+    border-radius: 4px;
+    padding: 3px;
+    position:relative;
+    right: -55%;
+}
+
+em {
+    position: relative;
+    right: -55%;
+    width: 0;
+	display: inline-block;
+	opacity: 0;
+}
+
+li:hover em{
+    width: 40px;
+	opacity: 1.0;
+}
+
+.appear {
+     margin-left: 15px;
+}

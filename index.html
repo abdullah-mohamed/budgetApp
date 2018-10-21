@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Budgety</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="img-cover">
+            <img src="back.png">
+        </div>
+        <div class="main-panel white-color">
+            <div class="date">Available Budget of</div>
+            <div class="budget">+ 00.00</div>
+            <div class="total-income">
+                <div class="income-expenses-container">
+                    <div class="align-left black-color">INCOME</div>
+                    <div id="income-amount" class="align-right white-color">+ 00.00</div>
+                </div>
+                <span class="expenses-percentage" style="background-color: rgb(75,180,75); border: none";>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            </div>
+            <div class="total-expenses">
+                <div class="income-expenses-container">
+                    <div class="align-left black-color">EXPENSES</div>
+                    <div id="expenses-amount" class="align-right white-color">- 00.00</div>
+                </div>
+                <span id="expenses-percentage" class="expenses-percentage">___</span>
+            </div>
+        </div>
+        <div class="input-panel">
+            <div class="input-panel-container">
+                <select class="input extra-small-input">
+                    <option value="inc" selected>+</option>
+                    <option value="exp">-</option>
+                </select>
+               <input class="input wide-input" placeholder="Add Description ...">
+               <input class="input small-input" id="amount-value" placeholder="value">
+                <i class="input-panel-button green-color far fa-check-circle"></i>
+            </div>
+        </div>
+        <div class="data-panel">
+            <div class="income-list black-color">
+                <ul id="income-list">
+                    <li class="green-color">INCOME</li>
+                </ul>
+            </div>
+            <div class="expenses-list black-color">
+                <ul id="expenses-list">
+                    <li class="red-color">EXPENSES</li>
+                </ul>
+            </div>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
